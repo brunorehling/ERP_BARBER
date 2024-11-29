@@ -1,0 +1,16 @@
+<header className="bg-blue-950 flex justify-around items-center">
+            <div>
+                <img src="/logo.png" alt="" />
+            </div>
+            <div className="text-white  flex gap-4">
+                <img src="/menu.png" alt="" className="sm:hidden"/>
+                <div className="hidden sm:block ">
+                    <div className="flex gap-10">
+                        <Link to={"/"}><p>Login</p></Link>
+                        <Link to={"/Agenda"}><p>Agenda</p></Link>
+                        <Link to={"/cadastro"}><p>cadasto</p></Link>
+                     
+                </div>
+                </div>
+            </div>
+        </header>
